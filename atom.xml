@@ -3,11 +3,11 @@
   <title>AirCloud 日常</title>
   <icon>https://www.gravatar.com/avatar/0faa8c389617a6d3024732ef0cdc0ccf</icon>
   <subtitle>One&#39;s programming dream</subtitle>
-  <link href="https://wx.github.io/atom.xml" rel="self"/>
+  <link href="https://wx230971.github.io/atom.xml" rel="self"/>
   
-  <link href="https://wx.github.io/"/>
+  <link href="https://wx230971.github.io/"/>
   <updated>2024-02-23T06:09:37.187Z</updated>
-  <id>https://wx.github.io/</id>
+  <id>https://wx230971.github.io/</id>
   
   <author>
     <name>WuXun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Docker-minio部署</title>
-    <link href="https://wx.github.io/2024/02/23/Docker-minio%E9%83%A8%E7%BD%B2/"/>
-    <id>https://wx.github.io/2024/02/23/Docker-minio%E9%83%A8%E7%BD%B2/</id>
+    <link href="https://wx230971.github.io/2024/02/23/Docker-minio%E9%83%A8%E7%BD%B2/"/>
+    <id>https://wx230971.github.io/2024/02/23/Docker-minio%E9%83%A8%E7%BD%B2/</id>
     <published>2024-02-23T06:05:41.000Z</published>
     <updated>2024-02-23T06:09:37.187Z</updated>
     
@@ -34,11 +34,11 @@
     
     
     
-    <category term="docker" scheme="https://wx.github.io/tags/docker/"/>
+    <category term="docker" scheme="https://wx230971.github.io/tags/docker/"/>
     
-    <category term="minio" scheme="https://wx.github.io/tags/minio/"/>
+    <category term="minio" scheme="https://wx230971.github.io/tags/minio/"/>
     
-    <category term="linux" scheme="https://wx.github.io/tags/linux/"/>
+    <category term="linux" scheme="https://wx230971.github.io/tags/linux/"/>
     
   </entry>
   
