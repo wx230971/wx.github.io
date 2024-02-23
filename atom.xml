@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AirCloud 日常</title>
+  <icon>https://www.gravatar.com/avatar/0faa8c389617a6d3024732ef0cdc0ccf</icon>
+  <subtitle>One&#39;s programming dream</subtitle>
+  <link href="http://localhost:4000/atom.xml" rel="self"/>
+  
+  <link href="http://localhost:4000/"/>
+  <updated>2024-02-23T06:09:37.187Z</updated>
+  <id>http://localhost:4000/</id>
+  
+  <author>
+    <name>WuXun</name>
+    <email>will230971@foxmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker-minio部署</title>
+    <link href="http://localhost:4000/2024/02/23/Docker-minio%E9%83%A8%E7%BD%B2/"/>
+    <id>http://localhost:4000/2024/02/23/Docker-minio%E9%83%A8%E7%BD%B2/</id>
+    <published>2024-02-23T06:05:41.000Z</published>
+    <updated>2024-02-23T06:09:37.187Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker search minIO</span><br><span class="line"></span><br><span class="line">docker pull minio/minio</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 9000:9000 -p 9090:9090 \</span><br><span class="line"> --name minio \</span><br><span class="line"> -d --restart=always \</span><br><span class="line"> -e &quot;MINIO_ACCESS_KEY=wx****&quot; \</span><br><span class="line"> -e &quot;MINIO_SECRET_KEY=wx****&quot; \</span><br><span class="line"> -v /home/minio/data:/data  \</span><br><span class="line"> -v /home/minio/config:/root/.minio \</span><br><span class="line"> minio/minio  server\</span><br><span class="line"> /data --console-address &quot;:9090&quot; -address &quot;:9000&quot;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class</summary>
+      
+    
+    
+    
+    
+    <category term="docker" scheme="http://localhost:4000/tags/docker/"/>
+    
+    <category term="minio" scheme="http://localhost:4000/tags/minio/"/>
+    
+    <category term="linux" scheme="http://localhost:4000/tags/linux/"/>
+    
+  </entry>
+  
+</feed>
